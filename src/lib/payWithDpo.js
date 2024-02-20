@@ -39,7 +39,7 @@ const paymentResponse = writable(null);
         headers: {
           'Content-Type': 'application/xml',
           'Accept': 'application/xml',
-          'Mode': 'no-cors',
+          // 'Mode': 'no-cors',
         },
         body: payload,
       });
