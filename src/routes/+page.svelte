@@ -1,7 +1,7 @@
 <script>
     //@ts-nocheck
     // Import the paymentResponse store
-    import { paymentResponse, initiatePayment } from './payWithDpo.js';
+    import { paymentResponse, initiatePayment } from '$lib/payWithDpo.js';
 
     // Access the payment result and explanation
     let paymentResult = null;
