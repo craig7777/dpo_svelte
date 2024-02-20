@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
     //@ts-nocheck
     // Import the paymentResponse store
     import { paymentResponse, initiatePayment } from './payWithDpo.js';
@@ -13,7 +13,7 @@
         paymentExplanation = response.explanation;
         }
     });
-</script>
+</script> -->
 
 <div class="m-12">
     <h1>Welcome to SvelteKit</h1>
